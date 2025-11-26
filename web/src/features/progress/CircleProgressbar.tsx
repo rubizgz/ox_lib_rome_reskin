@@ -116,7 +116,6 @@ const CircleProgressbar: React.FC = () => {
                 className={classes.progress}
               />
 
-              <div className="progbg2"></div>
               {label && <Text className={"classeslabel"}>Progressbar</Text> || <Text className={"classeslabel"}>Progressbar</Text>}
               <div className="percent2">
                 <p>{value}%</p>
