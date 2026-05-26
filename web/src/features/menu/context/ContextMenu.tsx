@@ -26,8 +26,13 @@ const useStyles = createStyles((theme) => ({
     textAlign: 'center',
   },
   buttonsContainer: {
-    height: "51.8519vh",
+    height: "auto",
     overflowY: 'scroll',
+    background: "rgba(0, 0, 0, 0.85)", 
+    paddingLeft: "5px",
+    paddingRight: "0px",
+    paddingTop: "10px",
+    paddingBottom: "10px",
   },
   buttonsFlexWrapper: {
     gap: "0.3389vh",
