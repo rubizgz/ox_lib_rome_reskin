@@ -195,9 +195,12 @@ code {
   justify-content: center;
   align-items: center;
   gap: 0.9259vh;
-  border-radius: 0.9259vh;
-  border: none;
-  background: radial-gradient(140.75% 140.75% at 50% 50%, rgba(26, 27, 30, 0.97) 0%, rgba(8, 8, 9, 0.87) 100%), linear-gradient(156deg, rgba(255, 255, 255, 0.00) 38.82%, rgba(255, 255, 255, 0.10) 131.78%);
+  /* border-radius: 0.9259vh; */
+  /* border: none; */
+  /* background: radial-gradient(140.75% 140.75% at 50% 50%, rgba(26, 27, 30, 0.97) 0%, rgba(8, 8, 9, 0.87) 100%), linear-gradient(156deg, rgba(255, 255, 255, 0.00) 38.82%, rgba(255, 255, 255, 0.10) 131.78%); */
+  border-radius: 0px;
+  border: 0.0926vh solid rgba(255, 0, 0, 0.35);
+  background: rgba(255, 0, 0, 0.30);
   transition: all .35s;
 }
 
@@ -210,12 +213,16 @@ code {
 
 .headerButton:hover {
   cursor: pointer;
-  background: #fff;
-  color: #000;
+  /* background: #fff; */
+  /* color: #000; */
+  background: rgba(255, 0, 0, 0.40);
+  border: 0.0926vh solid rgba(255, 0, 0, 0.45);
+  color: #fff;
 }
 
 .headerButton:hover .headerButtonIcon{
-  color: #000;
+  /* color: #000; */
+  color: #fff;
 }
 
 .headerButton2:hover {
@@ -236,18 +243,28 @@ code {
   min-height: 4.5vh;
   max-height: 7.2222vh;
   align-items: center;
-  border-radius: 0.9259vh;
-  border: 0.0926vh solid #373737;
-  background: radial-gradient(140.75% 140.75% at 50% 50%, rgba(26, 27, 30, 0.97) 0%, rgba(8, 8, 9, 0.87) 100%), linear-gradient(156deg, rgba(255, 255, 255, 0.00) 38.82%, rgba(255, 255, 255, 0.10) 131.78%);
+  /* border-radius: 0.9259vh; */
+  /* border: 0.0926vh solid #373737; */
+  /* background: radial-gradient(140.75% 140.75% at 50% 50%, rgba(26, 27, 30, 0.97) 0%, rgba(8, 8, 9, 0.87) 100%), linear-gradient(156deg, rgba(255, 255, 255, 0.00) 38.82%, rgba(255, 255, 255, 0.10) 131.78%); */
+  border-radius: 0px;
+  border: 0.0926vh solid rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.20);
   transition: all .25s;
 }
 
+.buttonsFlexWrapper:hover {
+  background: rgba(255,255,255,0.25);
+  border: 0.0926vh solid rgba(255,255,255,0.30);
+}
+
 .buttonsFlexWrapper:hover .buttonArrowContainer {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #ffffff43;
 }
 
 .buttonsFlexWrapper:hover .arrowIcon {
-  color: black;
+  /* color: black; */
+  color: white;
 }
 
 .buttonsFlexWrapper[data-disabled] {
@@ -262,6 +279,9 @@ code {
   border-radius: 0.9259vh;
   border: 0.0926vh solid rgba(255, 255, 255, 0.23);
   background: radial-gradient(140.75% 140.75% at 50% 50%, rgba(26, 27, 30, 0.75) 0%, rgba(0, 0, 0, 0.65) 100%), linear-gradient(156deg, rgba(255, 255, 255, 0.00) 38.82%, rgba(255, 255, 255, 0.30) 131.78%);
+  border-radius: 0px;
+  border: 0.0926vh solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.10);
 }
 
 .buttonTitleText {
@@ -330,7 +350,9 @@ code {
   width: 2.85vh;
   height: 2.85vh;
   border-radius: 0.5556vh;
-  background: rgba(217, 217, 217, 0.10);
+  /* background: rgba(217, 217, 217, 0.10); */
+  background: rgba(255,255,255,0.10);
+  border: 0.0926vh solid rgba(255,255,255,0.15);
   display: flex;
   justify-content: center;
   align-items: center;
